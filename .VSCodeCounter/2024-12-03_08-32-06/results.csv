@@ -1,0 +1,4 @@
+"filename", "language", "jsonc", "pip requirements", "comment", "blank", "total"
+"/workspace/.devcontainer/devcontainer.json", "jsonc", 20, 0, 0, 0, 20
+"/workspace/docker/requirements.txt", "pip requirements", 0, 12, 2, 2, 16
+"Total", "-", 20, 12, 2, 2, 36
