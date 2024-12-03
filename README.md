@@ -22,21 +22,35 @@
 This repository is organized as follows:
 
 ```
+├── assignment_brief
+│   ├── 7BUIS008.1_DataMiningMachineLearning_CW1_Project_24-25.docx  # Assignment brief (Word)
+│   ├── 7BUIS008.1_DataMiningMachineLearning_CW1_Project_24-25.pdf   # Assignment brief (PDF)
 ├── data
 │   └── raw
-│       ├── breast_cancer_data.csv                     # Dataset for mortality and survival prediction
-│       ├── data_dictionary.pdf                        # Data dictionary for dataset attributes
-├── .gitignore                                         # Ignore unnecessary files
+│       ├── Breast_Cancer_Mortality_Survival_Dataset.csv             # Dataset for mortality and survival prediction
+├── docker
+│   ├── Dockerfile                                                   # Docker environment configuration
+│   ├── env.example                                                  # Environment variable template
+│   └── requirements.txt                                             # Required Python packages
+├── .gitignore                                                       # Ignore unnecessary files
 ├── notebooks
-│   └── Assignment1.ipynb                              # Jupyter notebook for the assignment 💻
-├── README.md                                          # This file 📖
+│   └── Assignment 1.ipynb                                           # Jupyter notebook for the assignment 💻
+├── README.md                                                        # This file 📖
+├── references
+│   ├── final
+│   │   ├── Optimal training and test sets design for machine learning.pdf   # Reference material
+│   │   ├── peerj-cs-10-2245.pdf                                            # Reference material
+│   │   ├── s40009-022-01131-9.pdf                                          # Reference material
+│   │   └── s41598-024-57740-5.pdf                                          # Reference material
 ├── reports
-│   ├── Assessment 1 Data Mining ML - Donald Philp.pdf   # Final report (PDF) 📄
-│   ├── Assessment 1 Data Mining ML - Donald Philp.docx  # Word version for submission 📝
-│   └── DMML-Coursework-Assessment1.pdf                  # Assignment questions and guidelines 📑
-├── indesign                                           # Files used for compiling the final report 📊
-│   └── [InDesign project files]
-└── Assessment 1 Data Mining ML - Donald Philp.pdf     # Another copy of the final report in the root folder 🔄
+│   ├── Donald Philp - Assignment 1 - DM & ML.docx                   # Word version for submission 📝
+│   ├── Donald Philp - Assignment 1 - DM & ML.pdf                    # Final report (PDF) 📁
+│   ├── figures
+│   │   ├── decision_tree_yellow_manual.png                          # Visual representation of the decision tree
+│   │   ├── decision_tree.png                                        # Decision tree diagram
+│   │   ├── distribution_plot.png                                    # Data distribution plot
+│   │   ├── Precision-Recall Curve.png                               # Precision-recall curve plot
+│   │   └── Tables.xlsx                                              # Supporting table data
 ```
 
 ## 📊 Data
